@@ -11,18 +11,17 @@ namespace Project_Metro_Compiler
             //Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine(TITLE);
             //Console.ForegroundColor = ConsoleColor.White;
-
-            Console.WriteLine("A University of Lincoln UROS (2021) project by ");
+            Console.Write("University of Lincoln UROS2021 project by ");
             //Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Harry G Riley (19701020)");
+            Console.Write("Harry G Riley");
             //Console.ForegroundColor = ConsoleColor.White;
             Console.Write(", ");
             //Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Kristaps Jurkans (19701672)");
+            Console.Write("Kristaps Jurkans");
             //Console.ForegroundColor = ConsoleColor.White;
             Console.Write(", and ");
             //Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Olegs Jakovlevs (25187386)");
+            Console.Write("Olegs Jakovlevs");
             //Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine('.');
 
