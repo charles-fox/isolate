@@ -1,4 +1,4 @@
-# Project Metro Compiler
+# Isolate -- convert nasm to bootable ISO
 
 This is the Windows branch.  For the linux version, switch to the linux branch!
 
