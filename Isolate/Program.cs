@@ -6,31 +6,16 @@ namespace Project_Metro_Compiler
     class Program : ConsoleHelper
     {
 
-        const string TITLE = @"
-██████╗ ██████╗  ██████╗      ██╗███████╗ ██████╗████████╗    ███╗   ███╗███████╗████████╗██████╗  ██████╗ 
-██╔══██╗██╔══██╗██╔═══██╗     ██║██╔════╝██╔════╝╚══██╔══╝    ████╗ ████║██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗
-██████╔╝██████╔╝██║   ██║     ██║█████╗  ██║        ██║       ██╔████╔██║█████╗     ██║   ██████╔╝██║   ██║
-██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║       ██║╚██╔╝██║██╔══╝     ██║   ██╔══██╗██║   ██║
-██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║       ██║ ╚═╝ ██║███████╗   ██║   ██║  ██║╚██████╔╝
-╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝       ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ";
+        const string TITLE = @"Isolate (Linux version");
         static int Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine(TITLE);
-            Console.ForegroundColor = ConsoleColor.White;
-
-            Console.WriteLine("A University of Lincoln UROS (2021) project by ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Harry G Riley (19701020)");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("University of Lincoln UROS2021 project by ");
+            Console.Write("Harry G Riley");
             Console.Write(", ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Kristaps Jurkans (19701672)");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("Kristaps Jurkans");
             Console.Write(", and ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("Olegs Jakovlevs (25187386)");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("Olegs Jakovlevs");
             Console.WriteLine('.');
 
             // command line arguments should be provided for source & target file
