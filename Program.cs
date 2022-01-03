@@ -6,7 +6,7 @@ namespace Project_Metro_Compiler
     class Program : ConsoleHelper
     {
 
-        const string TITLE = @"Isolate (Linux version");
+        const string TITLE = @"Isolate (Linux version)";
         static int Main(string[] args)
         {
             Console.WriteLine(TITLE);
