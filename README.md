@@ -6,7 +6,7 @@ For Linux machines, please install NASM locally as it doesn't seem that it can b
 
 On Debian based machines run ``sudo apt install nasm -y``
 
-## Olegg's Workshop Files
+## Linux Workshop Files
 https://docs.google.com/document/d/1lvtMqFPLnLseZ9mZF34hVPCHYj4bRMQC6VRW0F9qidc/edit
 
 ## ISO & bootloader docs links
