@@ -10,12 +10,13 @@ namespace Project_Metro_Compiler
         static int Main(string[] args)
         {
             Console.WriteLine(TITLE);
-            Console.Write("University of Lincoln UROS2021 project by ");
-            Console.Write("Harry G Riley");
+            Console.Write("by Harry G Riley");
             Console.Write(", ");
             Console.Write("Kristaps Jurkans");
             Console.Write(", and ");
             Console.Write("Olegs Jakovlevs");
+            Console.Write(", ");
+            Console.Write("University of Lincoln");
             Console.WriteLine('.');
 
             // command line arguments should be provided for source & target file
