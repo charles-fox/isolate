@@ -1,4 +1,4 @@
-# Project Metro Compiler
+# Isolate -- convert nasm to bootable ISO
 ## Documentation
 
 ## Installation Prerequisites
