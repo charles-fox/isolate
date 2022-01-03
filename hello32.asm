@@ -69,7 +69,7 @@ now_protected_boot:
 
     hlt
 
-boot_msg    db "UoL UVROS - Project Metro", 0
+boot_msg    db "Isolate -- University of Lincoln", 0
 mode_msg    db "Hello World in 32bit! (protected mode)", 0
 
 times 510 - ($-$$) db 0

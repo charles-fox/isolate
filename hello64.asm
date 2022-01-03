@@ -140,7 +140,7 @@ real_long_mode:
 
     hlt
 
-boot_msg db "UoL UVROS - Project Metro",0
+boot_msg db "Isolate -- University of Lincoln",0
 l_mode db "Hello World in 64bit! (long mode)",0
 times 510 - ($-$$) db 0
 dw 0xaa55
