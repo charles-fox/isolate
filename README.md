@@ -1,4 +1,7 @@
 # Project Metro Compiler
+
+This is the Windows branch.  For the linux version, switch to the linux branch!
+
 ## Documentation & Resources
 ### Workshop Activities 
 - [Introduction to x86 Assembly](https://docs.google.com/document/d/1lvtMqFPLnLseZ9mZF34hVPCHYj4bRMQC6VRW0F9qidc)
