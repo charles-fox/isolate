@@ -13,9 +13,7 @@ sudo apt install nasm -y
 Install and build isolate:
 ```console
 git clone -b linux https://github.com/charles-fox/isolate.git
-cd isolate; 
-dotnet build; 
-cd bin/Debug/net5.0/
+cd isolate; dotnet build; cd bin/Debug/net5.0/
 ```
 
 Test by 'isolating' a demo program:
