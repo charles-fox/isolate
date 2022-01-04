@@ -18,7 +18,7 @@ cd isolate; dotnet build; cd bin/Debug/net5.0/
 
 Test by 'isolating' a demo program:
 ```console
-/isolate hello16.asm hello16.iso
+./isolate hello16.asm hello16.iso
 ```
 
 The ISO can be booted on a virtual machine as if it was a physical disc. We will use the Virtual Box virtual machine. To download and run Virtual Box,
