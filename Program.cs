@@ -16,7 +16,7 @@ namespace Project_Metro_Compiler
             Console.Write(", and ");
             Console.Write("Olegs Jakovlevs");
             Console.Write(", ");
-            Console.Write("University of Lincoln");
+            Console.Write("University of Lincoln, 2021");
             Console.WriteLine('.');
 
             // command line arguments should be provided for source & target file
@@ -27,15 +27,15 @@ namespace Project_Metro_Compiler
                 Console.WriteLine($"Incorrect number of arguments given.\nExpected 2, got {args.Length}. Exiting");
                 return -1;
             }
-            if (!File.Exists("Resources/LICENSE"))
-            {
-                string license_path = Directory.GetCurrentDirectory() + "/Resources/LICENSE";
-                Console.WriteLine("Unable to find NASM license file. Exiting\n");
-                return -1;
-            }
-            Console.WriteLine("**********************************************************************");
-            Console.WriteLine(File.ReadAllText("Resources/LICENSE"));
-            Console.WriteLine("**********************************************************************");
+            //if (!File.Exists("Resources/LICENSE"))
+            //{
+            //    string license_path = Directory.GetCurrentDirectory() + "/Resources/LICENSE";
+            //    Console.WriteLine("Unable to find NASM license file. Exiting\n");
+            //    return -1;
+            //}
+            //Console.WriteLine("**********************************************************************");
+            //Console.WriteLine(File.ReadAllText("Resources/LICENSE"));
+            Console.WriteLine("----------");
 
             Console.WriteLine($"Current working directory is: {Directory.GetCurrentDirectory()}");
 
@@ -111,7 +111,6 @@ namespace Project_Metro_Compiler
             Console.Write("Compiling data to ISO format...");
             compiler.CreateIso(AppDomain.CurrentDomain.BaseDirectory + args[1]);
             MarkLineAsComplete();
-            Console.WriteLine("**********************************************************************");
             Console.WriteLine("ISO Generation Completed.");
             return 0;
         }
@@ -120,16 +119,16 @@ namespace Project_Metro_Compiler
     {
         public static void MarkLineAsComplete()
         {
-            ConsoleColor originalColour = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("COMPLETE!");
-            Console.ForegroundColor = originalColour;
+            //ConsoleColor originalColour = Console.ForegroundColor;
+            //Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("COMPLETE");
+            //Console.ForegroundColor = originalColour;
         }
         public static void MarkLineAsFailed()
         {
             ConsoleColor originalColour = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("FAILED!");
+            Console.WriteLine("FAILED");
             Console.ForegroundColor = originalColour;
         }
     }
