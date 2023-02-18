@@ -32,8 +32,8 @@ boot:
     hlt ; stop the processor
 
 ; 13 = carrige return, 10 = newline, 0 = null-terminate
-boot_msg    db  10, "UoL UVROS - Project Metro", 13, 10, 0
-mode_msg    db  "Hello World in 16bit! (real mode)", 13, 10, 0
+boot_msg    db  10, "Hello, world!", 13, 10, 0
+mode_msg    db  "This is 16-bit (real mode) !", 13, 10, 0
 
 
 ; bootloader magic padding until 512 bytes with magic key
